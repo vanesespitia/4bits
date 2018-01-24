@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main(int argc, char *argv[])
+{
+   int edad;
+
+   if (argc==1)
+   {
+       printf("Debes ingresar mas parametros...\n");
+       return 1;
+   }
+
+    if (argc==2)
+   {
+       printf("Debes ingresar mas parametros...\n");
+       return 1;
+   }
+     if (argc==3)
+   {
+       printf("Debes ingresar mas parametros...\n");
+       return 1;
+   }
+      if (argc==4)
+   {
+       printf("Debes ingresar mas parametros...\n");
+       return 1;
+   }
+       if (argc!=4)
+   {
+       printf("Solo son 4 valores, gracias...\n");
+       return 1;
+   }
+       
+
+  
+
+   printf("Fin del programa %s...\n\n", argv[0]);
+
+   return 0;   
+} 
